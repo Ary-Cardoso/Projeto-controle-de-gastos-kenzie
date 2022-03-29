@@ -6,7 +6,7 @@ body{
 main{
     width: 1080px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
