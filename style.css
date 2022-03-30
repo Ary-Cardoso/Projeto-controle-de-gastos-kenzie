@@ -6,7 +6,7 @@ body{
 main{
     width: 1080px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 150px;
     display: flex;
     justify-content: space-between;
 }
@@ -57,6 +57,11 @@ main section{
     border-radius: 3px;
     margin-bottom: 10px;
     font-size: 16px;
+    transition: 0.5s;
+}
+
+.secaoInsercaoInformacoes button:active{
+    opacity: 0.6;
 }
 
 
@@ -92,6 +97,10 @@ main section{
     font-weight: bold;
     padding: 30px 20px;
     border-radius: 2px;
+}
+
+.containerDespesas__lista{
+    cursor: pointer;
 }
 
 /* SEÇÃO DE IMPRESSÃO DE RESULTADOS */
