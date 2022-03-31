@@ -23,7 +23,6 @@ const controleGastos = {
     saldo: 0
 };
 
-console.log(controleGastos)
 
 /*Funcões dos calculos*/
 
@@ -52,7 +51,6 @@ const saldo = document.querySelector('.secaoImpressaoResultados__saldo p');
 
 function atualizarInterface() {
     orcamento.innerText = `+ R$ ${controleGastos.orcamento}`;
-    /*orcamento.innerText = '+ R$' + controleGastos.orcamento;*/
     despesa.innerText = `- R$ ${controleGastos.despesas}`;
     saldo.innerText = `R$ ${controleGastos.saldo}`;
 }
