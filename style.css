@@ -140,7 +140,7 @@ main section{
 
 
 @media (max-width: 600px){
-    .main{
+    .principal{
         width: auto;
         align-items: center;
         flex-direction: column;
