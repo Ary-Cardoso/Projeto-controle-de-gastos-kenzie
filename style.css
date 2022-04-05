@@ -6,7 +6,7 @@ body{
 main{
     width: 1080px;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 150px;
     display: flex;
     justify-content: space-between;
 }
@@ -79,9 +79,13 @@ main section{
 
 .containerDespesas__cabecalho{
     display: flex;
-    justify-content: space-between;
     margin: 40px 0;
 }
+
+.tituloDespesa{
+    margin-right: 120px;
+}
+
 .containerDespesas__cabecalho p{
     font-size: 16px;
     font-weight: bold;
@@ -141,6 +145,10 @@ main section{
         align-items: center;
         flex-direction: column;
         padding: 10px;
+    }
+
+    .containerDespesas__cabecalho{
+        display: none;
     }
 
     .secaoInsercaoInformacoes, .secaoImpressaoResultados{
